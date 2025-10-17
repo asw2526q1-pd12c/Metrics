@@ -1,0 +1,13 @@
+{
+    "metrics_scope": "org",
+    "members":"org",
+    "project_number": 1,
+    "features":[
+        "issues","pull-requests","projects"
+    ],
+    "excluded_members": [
+        "carlesf"
+    ],
+    "excluded_repos": [
+    ]
+}
