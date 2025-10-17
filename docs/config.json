@@ -6,8 +6,13 @@
         "issues","pull-requests","projects"
     ],
     "excluded_members": [
-        "carlesf"
+        "carlesf",
+        "MauricioLavady",
+        "Nuuski",
+        "roger27012003"
     ],
     "excluded_repos": [
+        "Metrics"
     ]
+    
 }
