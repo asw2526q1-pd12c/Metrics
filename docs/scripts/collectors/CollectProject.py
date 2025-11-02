@@ -25,7 +25,7 @@ class CollectProject(CollectorBase):
         issues_by_iteration = {title: [] for title in iterations.keys()}
         issues_by_iteration["no_iteration"] = []
         for _, draftIssue in draftIssues.items():
-            iteration = draftIssue['iteration']
+            iteration = draftIssue.get('iteration')
             title = iteration if iteration else "no_iteration"
             issues_by_iteration[title].append(draftIssue)
         metrics_by_iteration = {}
@@ -43,25 +43,25 @@ class CollectProject(CollectorBase):
             total_bugs = 0
             for draftIssue in issues:
                 total +=1
-                status = draftIssue['status'].strip().lower().replace(" ", "_")
-                if draftIssue['item_type'] == 'Issue':
+                status = (draftIssue.get('status') or '').strip().lower().replace(" ", "_")
+                if draftIssue.get('item_type') == 'Issue':
                     total_issues +=1
-                    if draftIssue['issue_type'] != None:
+                    if draftIssue.get('issue_type') != None:
                         total_issues_with_type +=1
-                        if draftIssue['issue_type'] == "Feature":
+                        if draftIssue.get('issue_type') == "Feature":
                             total_features += 1
                             if status in features_by_status:
                                 features_by_status[status] += 1
-                        elif draftIssue['issue_type'] == "Bug":
+                        elif draftIssue.get('issue_type') == "Bug":
                             total_bugs +=1
-                        elif draftIssue['issue_type'] == "Task":
+                        elif draftIssue.get('issue_type') == "Task":
                             total_tasks += 1
                             if status in total_by_status:
                                 total_by_status[status] += 1
-                            if draftIssue['assignee'] != None and draftIssue['assignee'] in members:
-                                assigned_draftIssue_per_member[draftIssue['assignee']] +=1
+                            if draftIssue.get('assignee') != None and draftIssue.get('assignee') in members:
+                                assigned_draftIssue_per_member[draftIssue.get('assignee')] +=1
                                 if status in assigned_per_member_by_status:
-                                    assigned_per_member_by_status[status][draftIssue['assignee']] += 1
+                                    assigned_per_member_by_status[status][draftIssue.get('assignee')] += 1
                             else:
                                 non_assigned += 1
 
@@ -74,7 +74,6 @@ class CollectProject(CollectorBase):
             per_status_feature = {
                 f"total_features_{status}": counts
                 for status, counts in features_by_status.items()
-        
             }
 
             metrics_by_iteration[iteration_title]= {
@@ -108,25 +107,25 @@ class CollectProject(CollectorBase):
         total_bugs = 0
         for _,draftIssue in draftIssues.items():
             total +=1
-            status = draftIssue['status'].strip().lower().replace(" ", "_")
-            if draftIssue['item_type'] == 'Issue':
+            status = (draftIssue.get('status') or '').strip().lower().replace(" ", "_")
+            if draftIssue.get('item_type') == 'Issue':
                 total_issues +=1
-                if draftIssue['issue_type'] != None:
+                if draftIssue.get('issue_type') != None:
                     total_issues_with_type +=1
-                    if draftIssue['issue_type'] == "Feature":
+                    if draftIssue.get('issue_type') == "Feature":
                         total_features += 1
                         if status in features_by_status:
                             features_by_status[status] += 1
-                    elif draftIssue['issue_type'] == "Bug":
+                    elif draftIssue.get('issue_type') == "Bug":
                         total_bugs +=1
-                    elif draftIssue['issue_type'] == "Task":
+                    elif draftIssue.get('issue_type') == "Task":
                         total_tasks += 1
                         if status in total_by_status:
                             total_by_status[status] += 1
-                        if draftIssue['assignee'] != None and draftIssue['assignee'] in members:
-                            assigned_draftIssue_per_member[draftIssue['assignee']] +=1
+                        if draftIssue.get('assignee') != None and draftIssue.get('assignee') in members:
+                            assigned_draftIssue_per_member[draftIssue.get('assignee')] +=1
                             if status in assigned_per_member_by_status:
-                                assigned_per_member_by_status[status][draftIssue['assignee']] += 1
+                                assigned_per_member_by_status[status][draftIssue.get('assignee')] += 1
                         else:
                             non_assigned += 1
         assigned_draftIssue_per_member['non_assigned'] = non_assigned
@@ -158,4 +157,3 @@ class CollectProject(CollectorBase):
             'metrics_by_iteration': metrics_by_iteration
         }
         return metrics
-         
