@@ -6,10 +6,7 @@
         "issues","pull-requests","projects"
     ],
     "excluded_members": [
-        "carlesf",
-        "MauricioLavady",
-        "Nuuski",
-        "roger27012003"
+        "carlesf", "professor-asw"
     ],
     "excluded_repos": [
         "Metrics"
