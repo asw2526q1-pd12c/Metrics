@@ -101,14 +101,14 @@
                 "assigned_per_member": {
                     "MauricioLavady": 2,
                     "Nuuski": 0,
-                    "paaumartinez": 4,
+                    "paaumartinez": 6,
                     "roger27012003": 0,
                     "non_assigned": 3
                 },
                 "backlog_per_member": {
                     "MauricioLavady": 0,
                     "Nuuski": 0,
-                    "paaumartinez": 0,
+                    "paaumartinez": 1,
                     "roger27012003": 0
                 },
                 "ready_per_member": {
@@ -132,25 +132,25 @@
                 "done_per_member": {
                     "MauricioLavady": 1,
                     "Nuuski": 0,
-                    "paaumartinez": 3,
+                    "paaumartinez": 4,
                     "roger27012003": 0
                 },
-                "backlog": 0,
+                "backlog": 1,
                 "ready": 3,
                 "in_progress": 1,
                 "in_review": 1,
-                "done": 4,
-                "total_issues": 16,
-                "total_issues_with_type": 13,
+                "done": 5,
+                "total_issues": 18,
+                "total_issues_with_type": 15,
                 "total_features": 4,
-                "total_tasks": 9,
+                "total_tasks": 11,
                 "total_bugs": 0,
                 "total_features_backlog": 2,
                 "total_features_ready": 0,
                 "total_features_in_progress": 1,
                 "total_features_in_review": 1,
                 "total_features_done": 0,
-                "total": 16
+                "total": 18
             },
             "Iteration 2": {
                 "assigned_per_member": {
@@ -266,7 +266,7 @@
                 "assigned_per_member": {
                     "MauricioLavady": 0,
                     "Nuuski": 0,
-                    "paaumartinez": 2,
+                    "paaumartinez": 0,
                     "roger27012003": 0,
                     "non_assigned": 0
                 },
@@ -297,25 +297,25 @@
                 "done_per_member": {
                     "MauricioLavady": 0,
                     "Nuuski": 0,
-                    "paaumartinez": 1,
+                    "paaumartinez": 0,
                     "roger27012003": 0
                 },
                 "backlog": 0,
                 "ready": 0,
                 "in_progress": 0,
                 "in_review": 0,
-                "done": 1,
-                "total_issues": 2,
-                "total_issues_with_type": 2,
+                "done": 0,
+                "total_issues": 0,
+                "total_issues_with_type": 0,
                 "total_features": 0,
-                "total_tasks": 2,
+                "total_tasks": 0,
                 "total_bugs": 0,
                 "total_features_backlog": 0,
                 "total_features_ready": 0,
                 "total_features_in_progress": 0,
                 "total_features_in_review": 0,
                 "total_features_done": 0,
-                "total": 2
+                "total": 0
             },
             "total": {
                 "assigned_per_member": {
@@ -328,7 +328,7 @@
                 "backlog_per_member": {
                     "MauricioLavady": 0,
                     "Nuuski": 0,
-                    "paaumartinez": 0,
+                    "paaumartinez": 1,
                     "roger27012003": 0
                 },
                 "ready_per_member": {
@@ -355,7 +355,7 @@
                     "paaumartinez": 4,
                     "roger27012003": 0
                 },
-                "backlog": 0,
+                "backlog": 1,
                 "ready": 3,
                 "in_progress": 1,
                 "in_review": 1,
