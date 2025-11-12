@@ -9,11 +9,11 @@
     },
     "commits": {
         "MauricioLavady": 13,
-        "Nuuski": 3,
+        "Nuuski": 4,
         "paaumartinez": 16,
         "roger27012003": 0,
         "anonymous": 12,
-        "total": 44
+        "total": 45
     },
     "modified_lines": {
         "MauricioLavady": {
@@ -22,9 +22,9 @@
             "modified": 644
         },
         "Nuuski": {
-            "additions": 728,
-            "deletions": 160,
-            "modified": 888
+            "additions": 933,
+            "deletions": 322,
+            "modified": 1255
         },
         "paaumartinez": {
             "additions": 982,
@@ -37,9 +37,9 @@
             "modified": 0
         },
         "total": {
-            "additions": 2301,
-            "deletions": 395,
-            "modified": 2696
+            "additions": 2506,
+            "deletions": 557,
+            "modified": 3063
         }
     },
     "commit_streak": {
@@ -48,7 +48,7 @@
         "paaumartinez": 2,
         "roger27012003": 0
     },
-    "commit_merges": 4,
+    "commit_merges": 5,
     "longest_commit_streak_per_user": {
         "MauricioLavady": 1,
         "Nuuski": 1,
@@ -67,11 +67,11 @@
             "MauricioLavady": 2,
             "Nuuski": 0,
             "paaumartinez": 4,
-            "roger27012003": 0
+            "roger27012003": 1
         },
-        "have_pull_request": 0,
-        "assignee_is_pr_author": 0,
-        "total_closed": 7,
+        "have_pull_request": 1,
+        "assignee_is_pr_author": 1,
+        "total_closed": 8,
         "total": 20
     },
     "project": {
@@ -148,8 +148,8 @@
                 "total_features_backlog": 2,
                 "total_features_ready": 0,
                 "total_features_in_progress": 1,
-                "total_features_in_review": 1,
-                "total_features_done": 0,
+                "total_features_in_review": 0,
+                "total_features_done": 1,
                 "total": 18
             },
             "Iteration 2": {
@@ -368,8 +368,8 @@
                 "total_features_backlog": 2,
                 "total_features_ready": 0,
                 "total_features_in_progress": 1,
-                "total_features_in_review": 1,
-                "total_features_done": 0,
+                "total_features_in_review": 0,
+                "total_features_done": 1,
                 "total": 18
             }
         }
@@ -379,17 +379,17 @@
             "MauricioLavady": 1,
             "Nuuski": 0,
             "paaumartinez": 0,
-            "roger27012003": 1
+            "roger27012003": 2
         },
         "merged_per_member": {
             "MauricioLavady": 1,
             "Nuuski": 0,
             "paaumartinez": 0,
-            "roger27012003": 1
+            "roger27012003": 2
         },
-        "merged": 2,
+        "merged": 3,
         "not_merged_by_author": 0,
         "closed": 0,
-        "total": 2
+        "total": 3
     }
 }
