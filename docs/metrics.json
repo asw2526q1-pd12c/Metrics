@@ -10,10 +10,10 @@
     "commits": {
         "MauricioLavady": 13,
         "Nuuski": 4,
-        "paaumartinez": 16,
+        "paaumartinez": 17,
         "roger27012003": 0,
         "anonymous": 13,
-        "total": 46
+        "total": 47
     },
     "modified_lines": {
         "MauricioLavady": {
@@ -27,9 +27,9 @@
             "modified": 1255
         },
         "paaumartinez": {
-            "additions": 982,
-            "deletions": 182,
-            "modified": 1164
+            "additions": 986,
+            "deletions": 627,
+            "modified": 1613
         },
         "roger27012003": {
             "additions": 0,
@@ -37,22 +37,22 @@
             "modified": 0
         },
         "total": {
-            "additions": 2506,
-            "deletions": 557,
-            "modified": 3063
+            "additions": 2510,
+            "deletions": 1002,
+            "modified": 3512
         }
     },
     "commit_streak": {
         "MauricioLavady": 0,
         "Nuuski": 1,
-        "paaumartinez": 2,
+        "paaumartinez": 3,
         "roger27012003": 0
     },
     "commit_merges": 6,
     "longest_commit_streak_per_user": {
         "MauricioLavady": 1,
         "Nuuski": 1,
-        "paaumartinez": 2,
+        "paaumartinez": 3,
         "roger27012003": 0
     },
     "issues": {
