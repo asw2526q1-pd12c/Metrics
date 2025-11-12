@@ -12,8 +12,8 @@
         "Nuuski": 4,
         "paaumartinez": 16,
         "roger27012003": 0,
-        "anonymous": 12,
-        "total": 45
+        "anonymous": 13,
+        "total": 46
     },
     "modified_lines": {
         "MauricioLavady": {
@@ -48,7 +48,7 @@
         "paaumartinez": 2,
         "roger27012003": 0
     },
-    "commit_merges": 5,
+    "commit_merges": 6,
     "longest_commit_streak_per_user": {
         "MauricioLavady": 1,
         "Nuuski": 1,
