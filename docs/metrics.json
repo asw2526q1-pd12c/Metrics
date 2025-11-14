@@ -12,8 +12,8 @@
         "Nuuski": 7,
         "paaumartinez": 36,
         "roger27012003": 0,
-        "anonymous": 32,
-        "total": 88
+        "anonymous": 36,
+        "total": 92
     },
     "modified_lines": {
         "MauricioLavady": {
@@ -48,7 +48,7 @@
         "paaumartinez": 4,
         "roger27012003": 0
     },
-    "commit_merges": 22,
+    "commit_merges": 24,
     "longest_commit_streak_per_user": {
         "MauricioLavady": 1,
         "Nuuski": 2,
@@ -376,20 +376,20 @@
     },
     "pull_requests": {
         "created": {
-            "MauricioLavady": 3,
+            "MauricioLavady": 5,
             "Nuuski": 0,
             "paaumartinez": 11,
             "roger27012003": 2
         },
         "merged_per_member": {
-            "MauricioLavady": 1,
+            "MauricioLavady": 2,
             "Nuuski": 0,
             "paaumartinez": 9,
             "roger27012003": 2
         },
-        "merged": 12,
+        "merged": 13,
         "not_merged_by_author": 0,
-        "closed": 3,
-        "total": 16
+        "closed": 4,
+        "total": 18
     }
 }
