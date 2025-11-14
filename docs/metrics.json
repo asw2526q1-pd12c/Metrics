@@ -48,7 +48,7 @@
         "paaumartinez": 4,
         "roger27012003": 0
     },
-    "commit_merges": 24,
+    "commit_merges": 25,
     "longest_commit_streak_per_user": {
         "MauricioLavady": 1,
         "Nuuski": 2,
@@ -382,12 +382,12 @@
             "roger27012003": 2
         },
         "merged_per_member": {
-            "MauricioLavady": 2,
+            "MauricioLavady": 3,
             "Nuuski": 0,
             "paaumartinez": 9,
             "roger27012003": 2
         },
-        "merged": 13,
+        "merged": 14,
         "not_merged_by_author": 0,
         "closed": 4,
         "total": 18
