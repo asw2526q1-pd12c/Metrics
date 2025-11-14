@@ -9,11 +9,11 @@
     },
     "commits": {
         "MauricioLavady": 13,
-        "Nuuski": 5,
-        "paaumartinez": 26,
+        "Nuuski": 7,
+        "paaumartinez": 36,
         "roger27012003": 0,
-        "anonymous": 15,
-        "total": 59
+        "anonymous": 32,
+        "total": 88
     },
     "modified_lines": {
         "MauricioLavady": {
@@ -22,14 +22,14 @@
             "modified": 644
         },
         "Nuuski": {
-            "additions": 942,
-            "deletions": 328,
-            "modified": 1270
+            "additions": 1101,
+            "deletions": 361,
+            "modified": 1462
         },
         "paaumartinez": {
-            "additions": 1505,
-            "deletions": 715,
-            "modified": 2220
+            "additions": 2066,
+            "deletions": 1372,
+            "modified": 3438
         },
         "roger27012003": {
             "additions": 0,
@@ -37,9 +37,9 @@
             "modified": 0
         },
         "total": {
-            "additions": 3038,
-            "deletions": 1096,
-            "modified": 4134
+            "additions": 3758,
+            "deletions": 1786,
+            "modified": 5544
         }
     },
     "commit_streak": {
@@ -48,7 +48,7 @@
         "paaumartinez": 4,
         "roger27012003": 0
     },
-    "commit_merges": 14,
+    "commit_merges": 22,
     "longest_commit_streak_per_user": {
         "MauricioLavady": 1,
         "Nuuski": 2,
@@ -376,20 +376,20 @@
     },
     "pull_requests": {
         "created": {
-            "MauricioLavady": 1,
+            "MauricioLavady": 3,
             "Nuuski": 0,
-            "paaumartinez": 6,
+            "paaumartinez": 11,
             "roger27012003": 2
         },
         "merged_per_member": {
             "MauricioLavady": 1,
             "Nuuski": 0,
-            "paaumartinez": 5,
+            "paaumartinez": 9,
             "roger27012003": 2
         },
-        "merged": 8,
+        "merged": 12,
         "not_merged_by_author": 0,
-        "closed": 1,
-        "total": 9
+        "closed": 3,
+        "total": 16
     }
 }
