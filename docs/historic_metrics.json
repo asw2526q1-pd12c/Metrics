@@ -77011,5 +77011,392 @@
             "closed": 4,
             "total": 18
         }
+    },
+    "2026-05-19": {
+        "commits": {
+            "MauricioLavady": 13,
+            "Nuuski": 7,
+            "paaumartinez": 36,
+            "roger27012003": 0,
+            "anonymous": 37,
+            "total": 93
+        },
+        "modified_lines": {
+            "MauricioLavady": {
+                "additions": 591,
+                "deletions": 53,
+                "modified": 644
+            },
+            "Nuuski": {
+                "additions": 1101,
+                "deletions": 361,
+                "modified": 1462
+            },
+            "paaumartinez": {
+                "additions": 2066,
+                "deletions": 1372,
+                "modified": 3438
+            },
+            "roger27012003": {
+                "additions": 0,
+                "deletions": 0,
+                "modified": 0
+            },
+            "total": {
+                "additions": 3758,
+                "deletions": 1786,
+                "modified": 5544
+            }
+        },
+        "commit_streak": {
+            "MauricioLavady": 0,
+            "Nuuski": 2,
+            "paaumartinez": 4,
+            "roger27012003": 0
+        },
+        "commit_merges": 25,
+        "longest_commit_streak_per_user": {
+            "MauricioLavady": 1,
+            "Nuuski": 2,
+            "paaumartinez": 4,
+            "roger27012003": 0
+        },
+        "issues": {
+            "assigned": {
+                "MauricioLavady": 4,
+                "Nuuski": 0,
+                "paaumartinez": 7,
+                "roger27012003": 1,
+                "non_assigned": 8
+            },
+            "closed": {
+                "MauricioLavady": 2,
+                "Nuuski": 0,
+                "paaumartinez": 4,
+                "roger27012003": 1
+            },
+            "have_pull_request": 1,
+            "assignee_is_pr_author": 1,
+            "total_closed": 10,
+            "total": 20
+        },
+        "project": {
+            "has_iterations": true,
+            "iterations": {
+                "Iteration 1": {
+                    "title": "Iteration 1",
+                    "startDate": "2025-10-17",
+                    "endDate": "2025-11-14",
+                    "duration": 29
+                },
+                "Iteration 2": {
+                    "title": "Iteration 2",
+                    "startDate": "2025-11-15",
+                    "endDate": "2025-12-05",
+                    "duration": 21
+                },
+                "Iteration 3": {
+                    "title": "Iteration 3",
+                    "startDate": "2025-12-06",
+                    "endDate": "2025-12-19",
+                    "duration": 14
+                }
+            },
+            "metrics_by_iteration": {
+                "Iteration 1": {
+                    "assigned_per_member": {
+                        "MauricioLavady": 2,
+                        "Nuuski": 0,
+                        "paaumartinez": 6,
+                        "roger27012003": 0,
+                        "non_assigned": 3
+                    },
+                    "backlog_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "ready_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 1,
+                        "roger27012003": 0
+                    },
+                    "in_progress_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "in_review_per_member": {
+                        "MauricioLavady": 1,
+                        "Nuuski": 0,
+                        "paaumartinez": 1,
+                        "roger27012003": 0
+                    },
+                    "done_per_member": {
+                        "MauricioLavady": 1,
+                        "Nuuski": 0,
+                        "paaumartinez": 4,
+                        "roger27012003": 0
+                    },
+                    "backlog": 0,
+                    "ready": 2,
+                    "in_progress": 1,
+                    "in_review": 2,
+                    "done": 6,
+                    "total_issues": 18,
+                    "total_issues_with_type": 15,
+                    "total_features": 4,
+                    "total_tasks": 11,
+                    "total_bugs": 0,
+                    "total_features_backlog": 2,
+                    "total_features_ready": 0,
+                    "total_features_in_progress": 1,
+                    "total_features_in_review": 0,
+                    "total_features_done": 1,
+                    "total": 18
+                },
+                "Iteration 2": {
+                    "assigned_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0,
+                        "non_assigned": 0
+                    },
+                    "backlog_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "ready_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "in_progress_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "in_review_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "done_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "backlog": 0,
+                    "ready": 0,
+                    "in_progress": 0,
+                    "in_review": 0,
+                    "done": 0,
+                    "total_issues": 0,
+                    "total_issues_with_type": 0,
+                    "total_features": 0,
+                    "total_tasks": 0,
+                    "total_bugs": 0,
+                    "total_features_backlog": 0,
+                    "total_features_ready": 0,
+                    "total_features_in_progress": 0,
+                    "total_features_in_review": 0,
+                    "total_features_done": 0,
+                    "total": 0
+                },
+                "Iteration 3": {
+                    "assigned_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0,
+                        "non_assigned": 0
+                    },
+                    "backlog_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "ready_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "in_progress_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "in_review_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "done_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "backlog": 0,
+                    "ready": 0,
+                    "in_progress": 0,
+                    "in_review": 0,
+                    "done": 0,
+                    "total_issues": 0,
+                    "total_issues_with_type": 0,
+                    "total_features": 0,
+                    "total_tasks": 0,
+                    "total_bugs": 0,
+                    "total_features_backlog": 0,
+                    "total_features_ready": 0,
+                    "total_features_in_progress": 0,
+                    "total_features_in_review": 0,
+                    "total_features_done": 0,
+                    "total": 0
+                },
+                "no_iteration": {
+                    "assigned_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0,
+                        "non_assigned": 0
+                    },
+                    "backlog_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "ready_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "in_progress_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "in_review_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "done_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "backlog": 0,
+                    "ready": 0,
+                    "in_progress": 0,
+                    "in_review": 0,
+                    "done": 0,
+                    "total_issues": 0,
+                    "total_issues_with_type": 0,
+                    "total_features": 0,
+                    "total_tasks": 0,
+                    "total_bugs": 0,
+                    "total_features_backlog": 0,
+                    "total_features_ready": 0,
+                    "total_features_in_progress": 0,
+                    "total_features_in_review": 0,
+                    "total_features_done": 0,
+                    "total": 0
+                },
+                "total": {
+                    "assigned_per_member": {
+                        "MauricioLavady": 2,
+                        "Nuuski": 0,
+                        "paaumartinez": 6,
+                        "roger27012003": 0,
+                        "non_assigned": 3
+                    },
+                    "backlog_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "ready_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 1,
+                        "roger27012003": 0
+                    },
+                    "in_progress_per_member": {
+                        "MauricioLavady": 0,
+                        "Nuuski": 0,
+                        "paaumartinez": 0,
+                        "roger27012003": 0
+                    },
+                    "in_review_per_member": {
+                        "MauricioLavady": 1,
+                        "Nuuski": 0,
+                        "paaumartinez": 1,
+                        "roger27012003": 0
+                    },
+                    "done_per_member": {
+                        "MauricioLavady": 1,
+                        "Nuuski": 0,
+                        "paaumartinez": 4,
+                        "roger27012003": 0
+                    },
+                    "backlog": 0,
+                    "ready": 2,
+                    "in_progress": 1,
+                    "in_review": 2,
+                    "done": 6,
+                    "total_issues": 18,
+                    "total_issues_with_type": 15,
+                    "total_features": 4,
+                    "total_tasks": 11,
+                    "total_bugs": 0,
+                    "total_features_backlog": 2,
+                    "total_features_ready": 0,
+                    "total_features_in_progress": 1,
+                    "total_features_in_review": 0,
+                    "total_features_done": 1,
+                    "total": 18
+                }
+            }
+        },
+        "pull_requests": {
+            "created": {
+                "MauricioLavady": 5,
+                "Nuuski": 0,
+                "paaumartinez": 11,
+                "roger27012003": 2
+            },
+            "merged_per_member": {
+                "MauricioLavady": 3,
+                "Nuuski": 0,
+                "paaumartinez": 9,
+                "roger27012003": 2
+            },
+            "merged": 14,
+            "not_merged_by_author": 0,
+            "closed": 4,
+            "total": 18
+        }
     }
 }
